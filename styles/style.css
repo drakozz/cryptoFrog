@@ -719,7 +719,7 @@ footer{
   }
 
   .home .image img{
-    width: 50vw;
+    width: 70vw;
   }
 
   .home .button-frog{
@@ -822,7 +822,7 @@ footer{
 
   .home .button-frog .button{
     margin-bottom: 2rem;
-    width: 60%;
+    width: 80%;
   }
 
   .powered .powered-img img{
@@ -853,5 +853,9 @@ footer{
   /* --------- CONTACT ---------*/
   .contact-form{
     width: 100%;
+  }
+
+  .form-left img{
+    width: 50vw;
   }
 }
