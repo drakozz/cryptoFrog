@@ -132,6 +132,10 @@ body{
   transition: .8s;
 }
 
+.menu-mobile-icon{
+  display: none;
+}
+
 /* --------- HOME ---------*/
 .image{
   margin: 0 2rem;
@@ -650,8 +654,14 @@ footer{
 
 @media(max-width: 850px)
 { 
+  
 
   /*-------NAV MENU---------*/
+
+  .menu-mobile-icon{
+    display: block;
+  }
+
   .menu-mobile-icon i{
     font-size: 1.5rem;
     color: var(--text-color);
@@ -719,7 +729,7 @@ footer{
   }
 
   .home .image img{
-    width: 70vw;
+    width: 15rem;
   }
 
   .home .button-frog{
@@ -757,7 +767,7 @@ footer{
   }
 
   .tokencards .cards{
-    width: 80%;
+    width: 50%;
   }
 
   /*------ROAD MAP-----*/
