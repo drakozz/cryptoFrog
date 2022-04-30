@@ -1,3 +1,4 @@
+/*nav menu*/
 const nav = document.querySelector('#header nav')
 const toogle = document.querySelectorAll('nav .toogle')
 
@@ -14,6 +15,8 @@ for (const link of links) {
     nav.classList.remove('show')
   })
 }
+
+/*btn backtotop*/
 
 const backToTopButton = document.querySelector('.back-to-top')
 
